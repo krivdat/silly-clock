@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: calc(100vh);
+  background: linear-gradient(180deg, #6babcf, #bae8f3);
+}
+
+.title {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Carattere', cursive;
+  text-shadow: 2px 2px 5px #000;
+  letter-spacing: 1em;
+  color: #ddd;
+}
+
+.walking-men {
+  width: 100%;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+.outer-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 768px;
+}
+
+.clock-container {
+  background: url('img/clock1.png');
+  background-size: cover;
+  padding-top: 85.4%;
+  position: relative;
+}
+
+.person {
+  position: absolute;
+  width: 24.29%;
+  height: 58%;
+  left: 39.7%;
+  top: 14.9%;
+}
+
+.left-leg {
+  position: absolute;
+  width: 27.78%;
+  height: 32.9%;
+  left: 47.5%;
+  top: 30.5%;
+  transform-origin: 9.14% 59.32%;
+  transform: rotate(0deg);
+}
+
+.right-leg {
+  position: absolute;
+  width: 14.13%;
+  height: 40.15%;
+  left: 42%;
+  top: 47.96%;
+  transform-origin: 56.18% 5.09%;
+  transform: rotate(0deg);
+}
+
+.seconds {
+  position: absolute;
+  width: 0.79%;
+  height: 35.13%;
+  left: 49.68%;
+  top: 14.87%;
+  transform-origin: 2px 100%;
+  transform: rotate(0deg);
+}
